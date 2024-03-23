@@ -1,0 +1,67 @@
+/* CSS for GFGProfile component */
+/* Base styles */
+.card {
+  width: 100%;
+  max-width: 32rem; /* equivalent to 512px */
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fbcfe8;
+  border-radius: 0.75rem; /* equivalent to 12px */
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  overflow: hidden;
+}
+
+.profile-container {
+  display: flex;
+}
+
+.image-container {
+  flex-shrink: 0;
+}
+
+.profile-image {
+  height: auto; /* equivalent to 192px */
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.info-container {
+  padding: 1.5rem; /* equivalent to 24px */
+  padding-bottom: 0px;
+}
+
+.username {
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.875rem; /* equivalent to 14px */
+  color: #4f46e5;
+  font-weight: 600;
+}
+
+.institution {
+  display: block;
+  margin-top: 0.25rem; /* equivalent to 4px */
+  font-size: 1.125rem; /* equivalent to 18px */
+  line-height: 1.4;
+  color: #000;
+}
+
+.info-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem; /* equivalent to 24px */
+  color: #4b5563;
+}
+
+.info {
+  font-weight: 600;
+}
+.info-main{
+  display: flex;
+  gap: 1.5rem;
+}
+
+.value {
+  font-weight: 600;
+}
