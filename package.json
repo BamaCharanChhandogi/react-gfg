@@ -1,7 +1,7 @@
 {
-  "name": "react-gfg12",
-  "version": "1.0.0",
-  "description": "",
+  "name": "react-gfg",
+  "version": "1.0.1",
+  "description": "This is a simple component library for react where you get profile details of Geeks for geeks user",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "devDependencies": {
@@ -38,6 +38,10 @@
   },
   "author": "Bama Charan Chhandogi",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bamaCharanChhandogi/react-gfg"
+  },
   "dependencies": {
     "@babel/preset-react": "^7.24.1",
     "react-icons": "^5.0.1"

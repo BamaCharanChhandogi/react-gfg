@@ -17,13 +17,16 @@
 
 .image-container {
   flex-shrink: 0;
+  width: 15rem; /* equivalent to 192px */
+  height: 20rem; /* equivalent to 192px */
+  overflow: hidden;
+  border-radius: 10px; /* Optional: same as profile-image */
 }
 
 .profile-image {
-  height: auto; /* equivalent to 192px */
   width: 100%;
-  object-fit: cover;
-  border-radius: 10px;
+  height: 100%;
+  object-fit: cover; /* Ensure the image fills the container */
 }
 
 .info-container {
@@ -64,4 +67,14 @@
 
 .value {
   font-weight: 600;
+}
+
+.error{
+  color: red;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
 }

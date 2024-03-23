@@ -12,4 +12,4 @@ export default {
   },
 } as Meta;
 
-export const App = () => <GFGProfile username={"bamacharan"} />;
+export const App = () => <GFGProfile username={"bhavikgaba"}/>;
