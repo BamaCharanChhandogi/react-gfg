@@ -26,13 +26,13 @@ Collection of components for showcasing your Geek for Geeks profile in your port
 With npm:
 
 ```bash
-npm install react-GFG
+npm install react-gfg
 ```
 
 With Yarn:
 
 ```bash
-yarn add react-GFG
+yarn add react-gfg
 ```
 
 ## Usage
@@ -42,7 +42,7 @@ Each Component has their own default properties. You can overwrite the defaults 
 ### Example
 
 ```tsx
-import { GFGProfile } from "react-GFG";
+import { GFGProfile } from "react-gfg";
 
 function App() {
   return (
