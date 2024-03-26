@@ -1,8 +1,8 @@
 # React-GFG
 
-Collection of components for showcasing your Geek for Geeks profile in your portfolio ✨. Built with [React](https://react.dev), [TailwindCss](https://tailwindcss.com) and [Vite](https://vite.dev)
+Collection of components for showcasing your Geek for Geeks profile in your portfolio ✨. Built with [React](https://react.dev) and [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
-## Demo
+
 
 <!-- [Example Website](https://react-leetcode-exampple.vercel.app/) -->
 
@@ -19,7 +19,7 @@ Collection of components for showcasing your Geek for Geeks profile in your port
 - 🎨 Customizable themes and styles
 - 🎉 Fully customizable using CSS 
 - 🍀 Open source - [MIT License](./LICENSE)
-- ⚙️ Extended-Components: `activity`, `contest`, `heatmap` and `recent-submission`
+<!-- - ⚙️ Extended-Components: `activity`, `contest`, `heatmap` and `recent-submission` -->
 
 ## Installation
 
@@ -54,6 +54,8 @@ function App() {
 
 export default App;
 ```
+## Demo Screenshots
+![Alt text](images/demo.png)
 
 <!-- ## Component Props
 
