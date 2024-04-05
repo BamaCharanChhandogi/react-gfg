@@ -73,6 +73,22 @@ export default App;
 ```
 ## Demo Screenshots
 ![Alt text](images/demo1.png)
+## Remove Profile Picture with `showImg` prop
+```tsx
+import { GFGProfile } from "react-gfg";
+
+function App() {
+  return (
+    <div className="w-full flex justify-center items-center">
+      <GFGProfile username="bamacharan" ShowImg={"none"}/>
+    </div>
+  );
+}
+
+export default App;
+```
+## Demo Screenshots
+![Alt text](images/demo2.png)
 
 <!-- ## Component Props
 

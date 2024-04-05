@@ -36,6 +36,9 @@ body{
 .profile-image:hover {
   transform: scale(1.09);
 }
+.none{
+  display: none;
+}
 .info-container {
   padding: 1.5rem; /* equivalent to 24px */
   padding-bottom: 0px;
@@ -72,7 +75,7 @@ body{
 }
 
 .info {
-  font-weight: 600;
+  font-weight: 700;
 }
 .info-main{
   display: flex;
