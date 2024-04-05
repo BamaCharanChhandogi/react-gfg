@@ -57,6 +57,23 @@ export default App;
 ## Demo Screenshots
 ![Alt text](images/demo.png)
 
+## Profile Picture Change with `img` prop
+```tsx
+import { GFGProfile } from "react-gfg";
+
+function App() {
+  return (
+    <div className="w-full flex justify-center items-center">
+      <GFGProfile username="bamacharan" img={"imageURL.png"}/>
+    </div>
+  );
+}
+
+export default App;
+```
+## Demo Screenshots
+![Alt text](images/demo1.png)
+
 <!-- ## Component Props
 
 ### UserProfilDetails Props

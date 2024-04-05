@@ -1,13 +1,17 @@
 /* CSS for GFGProfile component */
 /* Base styles */
+body{
+  font-family: 'Montserrat', sans-serif
+}
 .card {
   width: 100%;
-  max-width: 32rem; /* equivalent to 512px */
+  max-width: 35rem; /* equivalent to 512px */
   margin-left: auto;
   margin-right: auto;
   background-color: #fbcfe8;
   border-radius: 0.75rem; /* equivalent to 12px */
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 4px 6px -1px rgba(255, 110, 127, 0.7), 0 2px 4px -1px rgba(191, 233, 255, 0.7);
+  background: linear-gradient(to right, #ff6e7f, #bfe9ff);
   overflow: hidden;
 }
 
@@ -27,8 +31,11 @@
   width: 100%;
   height: 100%;
   object-fit: cover; /* Ensure the image fills the container */
+  transition: transform 0.3s ease-in-out;
 }
-
+.profile-image:hover {
+  transform: scale(1.09);
+}
 .info-container {
   padding: 1.5rem; /* equivalent to 24px */
   padding-bottom: 0px;
@@ -37,9 +44,13 @@
 .username {
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  font-size: 0.875rem; /* equivalent to 14px */
+  font-size: 1.2rem;
   color: #4f46e5;
   font-weight: 600;
+}
+.username a:hover {
+  color: #ff6e7f;
+  text-decoration: none;
 }
 
 .institution {
@@ -47,14 +58,17 @@
   margin-top: 0.25rem; /* equivalent to 4px */
   font-size: 1.125rem; /* equivalent to 18px */
   line-height: 1.4;
-  color: #000;
+  color: #334155;
 }
 
 .info-row {
   display: flex;
   justify-content: space-between;
   gap: 1.5rem; /* equivalent to 24px */
-  color: #4b5563;
+  /* color: #4b5563; */
+  color: #64748b;
+  border-bottom: 1px solid #334155;
+  border-radius: 5px;
 }
 
 .info {
@@ -63,10 +77,12 @@
 .info-main{
   display: flex;
   gap: 1.5rem;
+  color: #64748b;
 }
 
 .value {
   font-weight: 600;
+  color: #334155;
 }
 
 .error{
@@ -76,5 +92,31 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  
+}
+/* Loading Icon */
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.spinning-container {
+  animation: spin 2s linear infinite;
+}
+
+.loading-icon {
+  width: 1rem; /* 32px */
+  height: 1rem; /* 32px */
+}
+
+/* Animation for spinning */
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+
 }
