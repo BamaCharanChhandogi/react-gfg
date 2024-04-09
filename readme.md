@@ -3,8 +3,7 @@
 Collection of components for showcasing your Geek for Geeks profile in your portfolio ✨. Built with [React](https://react.dev) and [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
 
-
-<!-- [Example Website](https://react-leetcode-exampple.vercel.app/) -->
+# Read Full [Blog](https://bamacharan.hashnode.dev/introducing-react-gfg-fetch-your-geek-for-geeks-profile-details-with-ease/)
 
 <!-- <img src="https://github.com/Sudhanva-Nadiger/react-leetcode/assets/93595710/a7744333-3449-40e4-bd3a-0cedd265af6e" width="350" /> -->
 
