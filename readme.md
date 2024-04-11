@@ -54,7 +54,7 @@ function App() {
 
 export default App;
 ```
-## Demo Screenshots
+<!-- ## Demo Screenshots -->
 ![Alt text](images/demo.png)
 
 ## Profile Picture Change with `img` prop
@@ -71,7 +71,7 @@ function App() {
 
 export default App;
 ```
-## Demo Screenshots
+<!-- ## Demo Screenshots -->
 ![Alt text](images/demo1.png)
 ## Remove Profile Picture with `showImg` prop
 ```tsx
@@ -87,7 +87,7 @@ function App() {
 
 export default App;
 ```
-## Demo Screenshots
+<!-- ## Demo Screenshots -->
 ![Alt text](images/demo2.png)
 
 <!-- ## Component Props
