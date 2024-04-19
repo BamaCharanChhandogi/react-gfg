@@ -22,7 +22,7 @@ body{
 .image-container {
   flex-shrink: 0;
   width: 15rem; /* equivalent to 192px */
-  height: 20rem; /* equivalent to 192px */
+  height: auto; /* equivalent to 192px */
   overflow: hidden;
   border-radius: 10px; /* Optional: same as profile-image */
 }
@@ -104,17 +104,17 @@ body{
   align-items: center;
 }
 
-.spinning-container {
+/* .spinning-container {
   animation: spin 2s linear infinite;
-}
+} */
 
-.loading-icon {
-  width: 1rem; /* 32px */
-  height: 1rem; /* 32px */
-}
+/* .loading-icon { */
+  /* width: 1rem;  */
+  /* height: 1rem;  */
+/* } */
 
 /* Animation for spinning */
-@keyframes spin {
+/* @keyframes spin {
   from {
     transform: rotate(0deg);
   }
@@ -122,4 +122,4 @@ body{
     transform: rotate(360deg);
   }
 
-}
+} */
