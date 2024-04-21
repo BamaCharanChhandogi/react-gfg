@@ -178,6 +178,55 @@ export default defineConfig({
 }
 ``` -->
 
+# CSS Structure
+
+The `GFGProfile` component uses the following CSS classes and styles:
+
+## Base Styles
+
+- `.card`: Styles for the main container of the profile card.
+- `.profile-container`: Styles for the container that holds the profile image and information.
+- `.image-container`: Styles for the container that holds the profile image.
+- `.profile-image`: Styles for the profile image itself.
+- `.info-container`: Styles for the container that holds the user's information.
+- `.username`: Styles for the username text.
+- `.institution`: Styles for the institution text.
+- `.info-row`: Styles for the row that contains the institute rank, current streak, and max streak.
+- `.info`: Styles for the labels in the information sections.
+- `.value`: Styles for the values in the information sections.
+- `.info-main`: Styles for the main information section that contains languages used, coding score, and total problems solved.
+- `.error`: Styles for the error message when the username is not provided.
+
+## Customizable Styles
+
+### Colors
+
+- `body`: Change the font family for the entire component.
+- `.card`: Change the background color and gradient of the main card container.
+- `.username`: Change the color and font weight of the username.
+- `.username a:hover`: Change the color of the username link on hover.
+- `.institution`: Change the color and font size of the institution text.
+- `.info-row`: Change the color and border styles of the information row.
+- `.info`: Change the font weight of the information labels.
+- `.value`: Change the color and font weight of the information values.
+
+### Dimensions
+
+- `.card`: Change the maximum width and border radius of the main card container.
+- `.image-container`: Change the width and height of the profile image container.
+- `.profile-image`: Change the object-fit property of the profile image.
+- `.profile-image:hover`: Change the scale transformation of the profile image on hover.
+- `.info-container`: Change the padding of the information container.
+
+### Animations
+
+- `.profile-image`: Add or modify the transition animation for the profile image on hover.
+
+## Additional Customizations
+
+You can also add or modify other styles as needed, such as font styles, spacing, and layout adjustments, by targeting the appropriate CSS classes or creating new ones. </br>
+For more information [here](src/stories/GFGProfile.css)
+
 
 ## Development
 - clone the repo
